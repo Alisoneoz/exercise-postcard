@@ -1,0 +1,66 @@
+body {
+	background: black;
+	font-family: "Poppins", serif;
+}
+
+h1 {
+	font-family: "Rubik Gemstones", serif;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: auto;
+	padding: 10px 10px 20px 10px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	padding: 10px;
+}
+.postcard-header img {
+	height: 50px;
+	width: 50px;
+}
+
+.postcard-header h1 {
+	width: 390px;
+	margin: 0px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: px;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: 1px;
+	border-bottom: 1px solid gray;
+	font-family: "Poppins", serif;
+	padding-bottom: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: purple;
+	color: beige;
+	border-radius: 12px;
+	padding: 8px;
+	border: none;
+}
+
+button:hover {
+	background-color: rgba(128, 0, 128, 0.551);
+}
